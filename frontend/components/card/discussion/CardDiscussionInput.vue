@@ -88,7 +88,7 @@
           id="message"
           rows="4"
           class="block p-2.5 w-full text-sm text-light-text bg-light-content rounded-lg border border-light-section-div dark:bg-dark-content dark:border-dark-section-div placeholder-light-special-text dark:placeholder-dark-special-text dark:text-dark-text focus-brand"
-          :placeholder="$t('components.card-discussion-input.leave-comment')"
+          :placeholder="highRisk ? $t('components.card-discussion-input.leave-comment-highRisk') : $t('components.card-discussion-input.leave-comment')"
         ></textarea>
       </div>
       <div class="flex items-center justify-between px-1">
