@@ -88,7 +88,7 @@
         id="message"
         rows="4"
         class="block p-2.5 w-full text-sm text-light-text rounded-lg border border-red-500 placeholder-light-special-text dark:placeholder-dark-special-text dark:text-dark-text focus-brand font-bold red-text"
-        :placeholder="discussionInput.highRisk ? $t('components.card-discussion-input.leave-comment-highRisk') : $t('components.card-discussion-input.leave-comment')"
+        :placeholder="$t('components.card-discussion-input.leave-comment-highRisk')"
       ></textarea>
     </div>
     <div class="w-full md:w-full" v-else>
@@ -96,7 +96,7 @@
               id="message"
               rows="4"
               class="block p-2.5 w-full text-sm text-light-text rounded-lg border border-light-section-div placeholder-light-special-text dark:placeholder-dark-special-text dark:text-dark-text focus-brand"
-              :placeholder="discussionInput.highRisk ? $t('components.card-discussion-input.leave-comment-highRisk') : $t('components.card-discussion-input.leave-comment')"
+              :placeholder="$t('components.card-discussion-input.leave-comment')"
       ></textarea>
     </div>
       <div class="flex items-center justify-between px-1">
