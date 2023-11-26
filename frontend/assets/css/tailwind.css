@@ -18,7 +18,9 @@
   .bg-breakpoint-test {
     @apply 3xl:bg-pink-500 2xl:bg-violet-500 xl:bg-blue-500 lg:bg-green-500 md:bg-yellow-500 sm:bg-orange-500 bg-red-500;
   }
-
+  .red-text {
+    @apply text-red-500;
+  }
   .focus-brand {
     @apply outline-offset-2 outline-light-cta-orange dark:outline-dark-cta-orange rounded-sm;
   }
